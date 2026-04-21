@@ -17,6 +17,14 @@ A zero-dependency, client-side tool to parse and visualize Netscape HTTP Cookie 
     - **Security Awareness**: Visual tags for `HttpOnly` and `Secure` flags.
 - **Tech Stack**: Pure HTML5, CSS3, and Vanilla JavaScript.
 
+### GitHub Packages Cleaner (`/scripts/cleanup-github-packages.sh`)
+A small CLI script for cleaning GitHub Package versions with the `gh` CLI.
+- **Features**:
+    - Delete untagged container versions.
+    - Keep only the newest N versions for a package.
+    - Support both user and org package scopes.
+- **Tech Stack**: Bash + GitHub CLI (`gh`)
+
 ---
 
 ## 🚀 How to Use
